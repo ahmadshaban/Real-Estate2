@@ -2,37 +2,68 @@
    font-weight: bold;
  }
  
- .topnav{
-  background-color: #A2AAB0;
-  
+/*BEGIN TOPBAR*/
+.topbar{
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #f3f3f3;
+  height: 45px;
+  z-index: 9999;
 }
-.topnav input {
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+.container{
+  max-width: 1240px;
 }
-
-/* When the input field gets focus, change its width to 100% */
-.topnav input:focus {
-  width: 60%;
+.topbar-left{
+  float: left;
 }
-.topnav select{
-  color: #273036;
-  border: #fff solid 3px;
-  border-radius: 20px;
-  background-color: transparent;
-  outline: none;
+.topbar-left p{
+  letter-spacing: normal;
+  font-size: 15px;
+  line-height: 44px;
+  display: inline-block;
+  color: #888;
 }
-.topnav option{
-  border-radius: 20px;
+.topbar-right{
+  float: right;
 }
-.topnav .fa-phone{
-  color: #fff;
+.topbar-right p{
+  letter-spacing: normal;
+  font-size: 15px;
+  line-height: 44px;
+  display: inline-block;
+  color: #888;
 }
-.toggler-icon {
+.secation{
+  float: right;
+  margin-left: 14px;
+}
+.container-right a{
+  float: left;
+  font-size: .9rem;
+  width: 40px;
   text-align: center;
-  outline: none;
+  border-left: 1px solid #eee;
+  transition: all .3s;
+  line-height: 44px;
+  color: #535353;
 }
+.container-right .one:hover {
+  background-color: #3B5998;
+  color: #ffffff;
+}
+.container-right .two:hover {
+  background-color: #125688;
+  color: #ffffff;
+}
+.container-right .three:hover {
+  background-color: #2c4762;
+  color: #ffffff;
+}
+.container-right .four:hover {
+  background-color: #55ACEE;
+  color: #ffffff;
+}
+/*END TOPBAR*/
+
 .nav2{
 
 background-color: #273036;
@@ -397,3 +428,97 @@ cursor: pointer;
 
 
 
+
+/* STAR TYLE BUTTON SEARCH  */
+
+.openBtn {
+  background:#273036;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  
+}
+@media (max-width:900px){
+  .openBtn {
+      background: #273036;
+      border: none;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left:5px;
+      margin-bottom: 10px !important;
+      /* border: solid 3px rgb(194, 226, 9); */
+      
+    } 
+}
+
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0; 
+  /* background ovrlay  */
+  background-color: rgba(0,0,0,0.9);
+  /* background ovrlay  */
+}
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  
+  text-align: center;
+  margin-top: 30px;
+  margin:auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 50px;
+  border: none;
+  border-bottom: 2px solid white;
+  float: left;
+  width: 80%;
+  height: 70px;
+  background:rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.overlay button {
+  float: left;
+  width:5%;
+  padding: 15px;
+  margin-top: 5px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  background:none;
+  color: white;
+}
+
+
+/* END style button SEARCH  */
