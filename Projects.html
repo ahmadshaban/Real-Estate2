@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/Projects.css " rel="stylesheet" type="text/css">
+    <link href="css/hover.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body>
+
+
+  <section class="container-fluid topnav">
+    <div class="row  ">   
+      <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+        <select class="mt-2">
+        
+          <option class=""><samp>العربية</samp></option>
+          <option class="">EN</option>
+        </select>
+       
+      </div>
+      <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+        <h5 class="pt-2 text-white">0105634678 <i class="fas fa-phone"></i></h5>
+      </div>
+    
+    <div class="text-center col-md-4 col-sm-4 col-lg-4 pt-2 serchnav">
+     <a style="border-radius: 20px; padding: 4px; background-color: #E0E0E0;"> 
+       <input type="text" name="search" placeholder="..بحث" class="text-right" style="background-color: transparent;border: none; outline: none;">
+      <img src="icon img/icons8-search.png" width="25px" style="cursor: pointer; "></a>
+     
+    </div>
+      
+        </div>
+    
+  </section>
+  <section class="nav2 ">
+    <nav class="navbar navbar-expand-md  ">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon "><img src="icon img/icons8-menu-64.png" width="40px" class="toggler-icon p-0 "></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end " id="collapsibleNavbar">
+        <ul class="navbar-nav font-weight-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="#log"><samp>تسجيل دخول</samp></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html"><samp>وظائف</samp></a>
+          </li>
+          <li class="nav-item">
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>أضف ممتلكاتك</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="add.html"><samp>أضف ممتلكاتك</samp></a>
+              <a class="dropdown-item" href="Sellers.html"><samp>البائعون</samp></a>
+              <a class="dropdown-item" href="The tenants.html"><samp>المستأجرون</samp></a>
+              
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>المشاريع</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="Projects.html"><samp>المشاريع</samp></a>
+              <a class="dropdown-item" href="#to"><samp>المشاريع المميزة</samp></a>
+              </div>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><samp>من نحن</samp></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><samp>الصفحةالرئسية</samp></a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+  </section>
+
+
+<section class="container-fluid bg">
+
+<div id="myBtnContainer  " class="text-center py-5 px-5">
+    <button class="btn" onclick="filterSelection('cars')">عقارات تجارية\مكاتب</button>
+    <button class="btn" onclick="filterSelection('people')">عقارات تجارية\محلات</button>
+    <button class="btn" onclick="filterSelection('nature')">عقارات سكنية\منازل</button>
+    <button class="btn active" onclick="filterSelection('all')"> الكل</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+
+  <section class="container grid ">
+  <div class="row">
+    <div class="column nature">
+      <div class="content">
+        <img src="img2/home3.jpeg" alt="Mountains" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>فيلا</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 259م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في   الشيخ زايد</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر2,500,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>بحديقة خلفية </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">3 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">5 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">2 garage<img src="icon img/icons8-garage-48.png"></div>
+            <div class="col-md-3">2 <br> pool<img src="icon img/icons8-outdoor-swimming-pool-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content  ">
+        <img src="img2/home7.jpeg" alt="Mountains" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>فيلا</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 218م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في  اكتوبر</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر2,300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>بحديقة خلفية </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">4 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">8 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+            <div class="col-md-3">2 <br> pool<img src="icon img/icons8-outdoor-swimming-pool-48.png"></div>
+            
+          </div>
+        </div>
+      
+     
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+        <img src="img2/home4.jpeg" alt="Lights" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>فيلا</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 218م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في  الساحل</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>3,300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>بحديقة خلفية </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">4 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">8 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+            <div class="col-md-3">2 <br> pool<img src="icon img/icons8-outdoor-swimming-pool-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+        <img src="img2/home5.jpeg" alt="Nature" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>شالية</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 218م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>إيجار في الساحل</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر شهري,300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>إطلالة علي البحر مباشرة</samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">5 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">8 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+            <div class="col-md-3">1 <br> pool<img src="icon img/icons8-outdoor-swimming-pool-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <div class="column nature">
+      <div class="content">
+        <img src="img2/jopqdwdas.jpeg" alt="Mountains" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>شالية</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 180م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في  مرسي مطروح</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر1,300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>بحديقة خلفية </samp></p>
+          </div>
+          <div class="col-md-12">
+            <p class="text-center" style="font-weight: bold;color: #162447;"><samp>موقع متميز </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">4 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">8 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+            <div class="col-md-3">2 <br> pool<img src="icon img/icons8-outdoor-swimming-pool-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+        <img src="img2/villa4.jpeg" alt="Mountains" width="100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>منزل</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 218م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في  الهرم</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر2,300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>بحديقة خلفية </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">4 bathroom<img src="icon img/icons8-bathtub-48.png"></div>
+            <div class="col-md-3">8 Bedrooms<img src="icon img/icons8-bed-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+           
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+
+  
+    <div class="column cars">
+      <div class="content">
+        <img src="img2/of2.jpeg" alt="Car" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>مكتب</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 100م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في اكتوبر</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>600,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+           <p style="float: left;">for sale</p> <img src="icon img/icons8-sale-100.png" width="50px">
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3">4 Hall Meetings<img src="icon img/icons8-meeting-room-48.png"></div>
+ 
+            <div class="col-md-3">2 <br>Waiting room<img src="icon img/icons8-waiting-room-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+        <img src="img2/of3.jpeg" alt="Car" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>work space</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 150م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للإيجار</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر300,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p style="float: left;">for sale</p> <img src="icon img/icons8-sale-100.png" width="50px">
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3">5 Hall Meetings<img src="icon img/icons8-meeting-room-48.png"></div>
+ 
+            <div class="col-md-3">2 <br>Waiting room<img src="icon img/icons8-waiting-room-48.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+        <img src="img2/of4.jpeg" alt="Car" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>مكتب</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 120م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في  التجمع الخامس</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر2,000,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>دور أرضي</samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3">3 Hall Meetings<img src="icon img/icons8-meeting-room-48.png"></div>
+            <div class="col-md-3">2 <br>Waiting room<img src="icon img/icons8-waiting-room-48.png"></div>
+            <div class="col-md-3">1 garage<img src="icon img/icons8-garage-48.png"></div>
+    
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="column people">
+      <div class="content">
+        <img src="img2/co1.jpeg" alt="People" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>مطعم</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 100م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للإيجار ف الساحل</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>700,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>موقع متميز علي البحر  </samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3"> Food court<img src="icon img/icons8-food-50.png"></div>
+        
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+        <img src="img2/co2.jpg" alt="People" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>مطعم</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة 166م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للبيع في شيراتون</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>السعر3,600,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>موقع متميز</samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3"> 2 Food court<img src="icon img/icons8-food-50.png"></div>
+            
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+        <img src="img2/co3.jpeg" alt="People" style="width:100%">
+        <h4 class="text-center" style=" color:  #162447;font-weight: bold;"><samp>كوفي شوب</samp></h4>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6"> 
+             <p ><samp>المساحة180م</samp></p>
+           
+          </div>
+          <div class="col-md-6">
+            <p ><samp>للإيجار في المعادي</samp></p>
+          </div>
+          <div class="col-md-6">
+            <p><samp>150,000 </samp></p>
+          </div>
+          <div class="col-md-6">
+            <p ><samp>موقع متميز</samp></p>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid info">
+          <div class="row text-center">
+            <div class="col-md-3 ">2 bathroom<img src="icon img/icons8-toilet-64.png"></div>
+            <div class="col-md-3"> Food court<img src="icon img/icons8-food-50.png"></div>
+            <div class="col-md-3">A place for coffee<img src="icon img/icons8-coffee-maker-48.png"></div>     
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  <!-- END GRID -->
+      </div>
+</section>
+</section>
+
+
+<section id="footer"  class="pt-2">
+
+  <div class="container  pt-3">
+    
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-6 col-md-3 ">
+        <h5 class="text-center"><a class="text-light"><samp>القائمة|</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <li class=" nav-item-link"><a href="about.html"><samp>من نحن </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Projects.html"><samp>المشاريع </samp><i class="fas fa-angle-double-left"></i></a></li>
+         <li class=" nav-item-link"><a href="#to"><samp>المشاريع المميزة </samp><i class="fas fa-angle-double-left"></i></a></li>
+      
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center"><a class="text-light"><samp> خدمات|</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+        <li class=" nav-item-link"><a href="add.html"><samp>أضف ممتلكاتك</samp><i class="fas fa-angle-double-left"></i></a></li>
+        <li class=" nav-item-link"><a href="Sellers.html"><samp>البائعون</samp><i class="fas fa-angle-double-left"></i></a></li>
+        <li class=" nav-item-link"><a href="The tenants.html"><samp>المستأجرون </samp><i class="fas fa-angle-double-left"></i></a></li>
+     </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center"><a class="text-light"><samp>مزايا |</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <li class=" nav-item-link"><a href="Careers.html"><samp>وظائف </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Home value.html"><samp>كم تساوي قيمة منزلك </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Projects.html"><samp>ابحث عن الحي المناسب</samp><i class="fas fa-angle-double-left"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center "><a class="text-light"> <samp> تواصل معنا |</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <a><samp>البريد الالكتروني</samp></a>
+          <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>El-3qad@gmail.com </samp></a></li>
+          <a><samp>رقم التليفون</samp></a>
+          <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>0105634678 </samp></a></li>
+         
+     
+        
+        </ul>
+      </div>
+      
+     
+     
+    </div>
+    
+   
+  
+  </div>
+  <section class="container-fluid wave" >
+  <div class="row pb-3 ">
+    
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center text-white ">
+        <img src="imge/undraw_delivery_address_03n0.svg" width="10%">
+        <i class="m-2 "><img src="icon img/icons8-facebook-64.png" class="sochial"></i>
+        <i class=" m-2 "><img src="icon img/icons8-whatsapp-64.png" class="sochial"></i>
+        <i class=" m-2 "><img src="icon img/icons8-google-plus-64.png" class="sochial"></i>
+        <br></br>
+       
+        <small class="text-light ">© 2020 by El-3qad </small>
+      </div>
+
+    </div>	</section>
+
+
+  
+<button class="open-button" onclick="openForm()"><samp><i class="fab fa-facebook-messenger mr-3 fa-1x"></i>راسلنا الان</samp></button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h3 class="text-right text-white"><samp>دردشة</samp></h3>
+
+    <label for="msg" class="text-muted"><b>Message</b></label>
+    <textarea placeholder="..اكتب رسالتك" name="msg" required class="text-right"></textarea>
+
+    <button type="submit" class="btn"><samp>إرسال</samp></button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><samp>إغلاق</samp></button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.js"></script>
+<script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+</body>
+</html>

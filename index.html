@@ -1,787 +1,761 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css " rel="stylesheet" type="text/css">
+    <link href="css/midia.css " rel="stylesheet" type="text/css">
+    <link href="css/hover.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 
-<head lang="en" dir="rtl">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pharaohs Academy_index</title>
-  <!-- add icon link -->
-  <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" />
-  <!-- add icon link -->
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/all.css" rel="stylesheet" type="text/css">
-  <link href="css/profont.min.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-  <link href="css/buttoncss.css" rel="stylesheet" type="text/css">
-  <link href="css/animsition.css" rel="stylesheet" type="text/css">
-  <link href="css/hover.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
 </head>
-
-
-<!-- start preload -->
-<div class="load">
-  <h3></h3>
-  <div class="container-2">
-    <div class="item item-1"></div>
-    <div class="item item-2"></div>
-    <div class="item item-3"></div>
-    <div class="item item-4"></div>
-  </div>
-</div>
-<!-- start preload -->
-
-<body id="body" onload="myfunction()">
-
-
-  <!-- start navbar-1 -->
-  <nav id="navtwo" class="navbar navbar-expand-lg navbar-dark  bg-primary" style="direction: rtl;">
-    <a class="navbar-brand wow pulse" data-wow-duration="1s" data-wow-iteration="200" href="#">معاهد الفراعنه العليا</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active-item" href="index.html"><i class="fas fa-home text-warning ml-2"></i>الـرئـيسية</a>
-        </li>
-        <li class="nav-item dropdown ">
-          <a href="#" class="nav-link " data-toggle="dropdown"><i class="fas fa-user-alt text-warning ml-2"></i>الالتحاق
-            بالمعهد <i class="fas fa-sort-down text-warning mr-1"></i></a>
-          <div class=" dropdown-menu dropdown-menu-right">
-            <div class="dropdown-divider"></div>
-            <a href="./pages/tanseq.html" class="dropdown-item">التنسيقات والتحويلات</a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/sections.html" class="dropdown-item">الشعب المتاحه</a>
-            <div class="dropdown-divider"></div>
-
-            <a href="./pages/Expenses.html" class="dropdown-item">المصاريف الدراسية</a>
-            <div class="dropdown-divider"></div>
-
-            <a href="./pages/tanseq.html" class="dropdown-item">شروط القبول </a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/Buildings_and _halls.html" class="dropdown-item">المباني والقاعات </a>
-            <div class="dropdown-divider"></div>
-          </div>
-        </li>
-        <li class="nav-item dropdown ">
-          <a href="#" class="nav-link " data-toggle="dropdown"><i class="fas fa-book-open ml-2 text-warning"></i>شئون
-            التعليم<i class="fas fa-sort-down text-warning mr-1"></i></a>
-          <div class="dropdown-menu dropdown-menu-right">
-            <div class="dropdown-divider"></div>
-            <a href="./pages/Teaching-staff.html" class="dropdown-item">اعضاء هيئة التدريس</a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/sections-time.html" class="dropdown-item">جداول التدريس </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">الخريطه التعليميه </a>
-            <div class="dropdown-divider"></div>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link " data-toggle="dropdown"><i
-              class="fa fa-user-graduate text-warning ml-2"></i>الخدمات
-            الطلابية<i class="fas fa-sort-down text-warning mr-1"></i></a>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a href="./pages/golos.html" class="dropdown-item">ارقام الجلوس </a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/natega.html" class="dropdown-item">نتائج الامتحانات </a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/sections-time.html" class="dropdown-item">جداول المحاضرات</a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/Exam-schedules.html" class="dropdown-item">جداول الامتحانات </a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/E-Learning.html" class="dropdown-item">التعليم الالكتروني </a>
-            <div class="dropdown-divider"></div>
-
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a href="" class="nav-link " data-toggle="dropdown"><i
-              class="fas fa-hands-helping  text-warning ml-2"></i></i>تواصل
-            معنا <i class="fas fa-sort-down text-warning mr-1"></i></a>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a href="./pages/contact.html" class="dropdown-item">عنوان المعهد</a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/contact.html" class="dropdown-item">للتسجيل بكودالطالب</a>
-            <div class="dropdown-divider"></div>
-            <a href="./pages/question.html" class="dropdown-item">الاسئـلةالـشائعه</a>
-            <div class="dropdown-divider"></div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="main">
-    <div class="input-group">
-      <a href="./pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
-      <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
-    </div>
-    <div id="myOverlay" class="overlay">
-      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-      <div class="overlay-content">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+<body>  
+  <section class="container-fluid topnav">
+    <div class="row  ">   
+      <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+        <select class="mt-2">
+        
+          <option class=""><samp>العربية</samp></option>
+          <option class="">EN</option>
+        </select>
+       
       </div>
+      <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+        <h5 class="pt-2 text-white">0105634678 <i class="fas fa-phone"></i></h5>
+      </div>
+    
+    <div class="text-center col-md-4 col-sm-4 col-lg-4 pt-2 serchnav">
+     <a style="border-radius: 20px; padding: 4px; background-color: #E0E0E0;"> 
+       <input type="text" name="search" placeholder="..بحث" class="text-right" style="background-color: transparent;border: none; outline: none;">
+      <img src="icon img/icons8-search.png" width="25px" style="cursor: pointer; "></a>
+     
     </div>
-
-  </div>
-
-  <!-- end navbar -->
-
-  <!-- start style header  -->
-  <div class="header">
-    <!-- <div id="particles-js"></div>   -->
-    <div class="view text-center">
-      <div class="flex-center mask  white-text">
-        <ul class=" col-md-12 list-unstyled list-inline">
-          <li>
-            <p style=" direction: ltr;" class="tlt font-weight-bold ">Institutes of the High Pharaohs</p>
+      
+        </div>
+    
+  </section>
+  <section class="nav2 ">
+   
+    
+    <nav class="navbar navbar-expand-md  ">
+       <div id="mark"></div>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon "><img src="icon img/icons8-menu-64.png" width="40px" class="toggler-icon p-0 "></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end " id="collapsibleNavbar">
+        <ul class="navbar-nav font-weight-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="#log"><samp>تسجيل دخول</samp></a>
           </li>
-          <li>
-            <p class=" font-weight-bold ">وزارة التـــعليم
-              العـــــالي</p>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html"><samp>وظائف</samp></a>
           </li>
-          <li>
-            <p class="font-weight-bold text-uppercase ">
-              معاهـــد الفــــراعنة العليا</p>
+          <li class="nav-item">
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>أضف ممتلكاتك</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="add.html"><samp>أضف ممتلكاتك</samp></a>
+              <a class="dropdown-item" href="Sellers.html"><samp>البائعون</samp></a>
+              <a class="dropdown-item" href="The tenants.html"><samp>المستأجرون</samp></a>
+              
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>المشاريع</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="Projects.html"><samp>المشاريع</samp></a>
+              <a class="dropdown-item" href="#to"><samp>المشاريع المميزة</samp></a>
+              </div>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><samp>من نحن</samp></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><samp>الصفحةالرئسية</samp></a>
           </li>
         </ul>
-      </div>
-    </div>
-
-
-  </div>
-  <!-- end style header  -->
-
-  <!--  start part doctior ashosh  -->
-  <div class="container  dr-ashosh">
-    <div class=" row section-dr">
-      <div class="col-md-3">
-        <img class="img-fluid img-thumbnail  hvr-radial-out" src="img/DR.ASUOSH.jpg" alt="Avatar">
-      </div>
-      <div class="col-md-9">
-        <h3>كلمة أ.د. أحمد عشوش</h3>
-        <h3>
-          " تعلمـوا العلم ، فإن تعلمه لله خشية ، وطلبة عبادة ، ومدارسته تسبيح ، والبحث عنه جهاد ، وتعليمه من لا يعلمه
-          صدقه ، وبذله لأهله قربه ، وهو الأنيس في الوحدة ، والصاحب في الخلوة ، والمصبر على السراء والضراء ، والوزير عند
-          الخلاء ، والقريب عند الغرباء ، ومنار سبيل الجنة ، يرفع الله به أقواماً ، فيجعلهم في الخير قاده سادة هداه ،
-          يقتدي بهم ، وتقتفي آثارهم ، وترمق أفعالهم ، وترغب الملائكة في خلتهم ، وبأجنحتـها تمسحهم ".
-        </h3>
-      </div>
-    </div>
-  </div>
-  <!-- end part doctior ashosh  -->
-
-  <!-- start part information of Institutes -->
-  <div class="section-information-univerisrty">
-
-    <div class="row div-row">
-      <div class="container">
-        <h1 class="wow slideInUp" data-wow-duration="1s" data-wow-iteration=""> التعريف بنظام الدراسة والقبول</h1>
-        <div class="row row-1">
-          <div class="col-md-6 col-sm-12">
-            <img src="img/driver.svg" alt="">
-          </div>
-          <div class="col-md-6 col-sm-12 pt-4">
-            <img src="img/driver1.svg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3  card  col-sm-12 mb-3 h-auto wow  wow fadeInUpBig">
-        <div class="icon">-</div>
-        <div class="card-header">
-          <i class="fal fas fa-school fa-2x text-warning"></i>
-          <h4>عن المعهد</h4>
-        </div>
-        <div class="card-body">
-          <p class="card-text "> تأسس المعهد عام 2001م طبقاً للقرار الوزارى رقم
-            <br>( 711 ) لسنة 2001م بهدف
-            تطوير التعليم الخاص في مصر.</p>
-        </div>
-      </div>
-      <div class="col-md-3 card   col-sm-12 mb-3  wow fade-in-up">
-        <div class="icon">-</div>
-
-        <div class="card-header">
-          <i class="fa fa-book-reader fa-2x text-warning"></i>
-          <h4>نظام الدراسه بالمعهد</h4>
-        </div>
-        <div class="card-body">
-          <p class="card-text "> - الدراسة بالمعهد بنظام الساعات المعتمدة واللغة العربية والإنجليزية هما لغتا
-            التعليم بالمعهد ويكون أداء
-            الامتحان
-            باللغة التي يدرس بها المقرر ويجوز في أحوال خاصة لعميد المعهد أن يرخص للطالب في الإجابة بلغة أخرى <br> <br>
-            <br></p>
-        </div>
-      </div>
-
-      <div class="col-md-3  card  col-sm-12  mb-3 h-auto  wow fade-in-up">
-        <div class="icon">-</div>
-
-        <div class="card-header">
-          <i class="fa fa-sitemap fa-2x text-warning"></i>
-          <h4>الاقسام العلميه داخل المعهد</h4>
-        </div>
-        <div class="card-body">
-
-          <p class="card-text ">
-          <p> 1- قسم علوم الحاسب. </p>
-          <p> 2- قسم نظم المعلومات الإدارية. </p>
-          <p> 3- قسم إدارة الأعمال. </p>
-          <p> 4- قسم السياحه والفنادق </p>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-3  card   col-sm-12 mb-3  h-auto   wow fade-in-up">
-        <div class="icon">-</div>
-        <div class="card-header">
-          <i class="far fa-clock fa-2x text-warning"></i>
-
-          <h4>مدة الدراسة </h4>
-        </div>
-        <div class="card-body">
-          <p class="card-text "> - مدة الدراسة
-            بالمعهد أربع سنوات جامعية وذلك للحصول على درجة البكالوريوس.</p>
-        </div>
-      </div>
-
-      <div class="col-md-3  card  col-sm-12 mb-3 h-75   wow fade-in-up">
-        <div class="icon">-</div>
-        <div class="card-header">
-
-          <i class="fas fa-handshake fa-2x text-warning"></i>
-          <h4>قواعد القبول</h4>
-
-        </div>
-        <div class="card-body">
-          <p class="card-text "> يكون ترشيح الطلاب للمعهد عن طريق مكتب التنسيق مالم يصدر وزير التعليم بغير ذلك
-            ، التحويلات من المعاهد والجامعات
-            الأخرى بشرط الحصول على المؤهل المناسب الثانوية العامة المصرية ، الثانوية الصناعية ، دبلوم المعاهد الفنية</p>
-        </div>
-      </div>
-
-      <div class="col-md-3 card  col-sm-12 mb-3 h-auto   wow fade-in-up">
-        <div class="icon">-</div>
-        <div class="card-header">
-          <i class="fas fa-user-graduate fa-2x text-warning"></i>
-          <h4>مواعيد الدراسة والقيد</h4>
-
-        </div>
-        <div class="card-body">
-          <p class="card-text ">
-            - الفصل الدراسي الاول يبدأ أوائل شهر سبتمبر ولمدة لاتقل عن 14 أسبوع
-            -الفصل الدراسي الثاني يبدأ أوائل فبراير ولمدة لاتقل عن 14 أسبوع
-            – الفصل الدراسي الصيفى يبدأ أواخر شهر يونيو لمدة 7 أسابيع
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--end part information of Institutes -->
-
-  <!--  start sictions in Institutes  -->
-  <div class="section-of">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 section-title">
-        <h2>الشُعب المتاحة للدراسة داخل المعهد</h2>
-      </div>
-      <div class="col-md-3  col-sm-12 card text-white bg-primary  wow fadeInUpBig">
-        <div class="icon">-</div>
-        <div class="card-header">
-          <i class="fas fa-sitemap fa-2x text-warning"></i>
-          <h4> نظم الملعومات الادارية</h4>
-        </div>
-        <div class="card-body">
-          <img class="img-fluid" src="img/section2/nozom.jpg" alt="">
-          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
-        </div>
-      </div>
-
-      <div class="col-md-3  col-sm-12 card text-white bg-primary  wow fadeInUpBig">
-        <div class="icon">-</div>
-
-        <div class="card-header">
-          <i class="fas fa-laptop-code fa-2x text-warning"></i>
-          <h4>قسم علوم الحاسب</h4>
-        </div>
-        <div class="card-body">
-          <p class="card-text text-white">
-            <img class="img-fluid" src="img/section2/3lom.JPG" alt="">
-          </p>
-          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
-        </div>
-      </div>
-
-      <div class="col-md-3  col-sm-12  card text-white bg-primary   wow fadeInUpBig">
-        <div class="icon">-</div>
-
-        <div class="card-header">
-          <i class="fas fa-tasks fa-2x text-warning"></i>
-          <h4>قسم ادارة الاعمال</h4>
-        </div>
-        <div class="card-body">
-
-          <p class="card-text text-white">
-            <img class="img-fluid" src="img/section2/adara.JPG" alt="">
-          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-3  col-sm-12  card text-white bg-primary   wow fadeInUpBig">
-        <div class="icon">-</div>
-
-        <div class="card-header ">
-          <i class="fas fa-globe-americas fa-2x text-warning"></i>
-          <h4>قسم السياحة والفنادق</h4>
-        </div>
-        <div class="card-body">
-
-          <p class="card-text text-white">
-            <img class="img-fluid" src="img/section2/syaha.JPG" alt="">
-          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end sictions in Institutes  -->
-
-
-  <!-- start style section counter  -->
-  <div class=" container-counter">
-    <div class="content">
-      <h3>Feedback & Evaluation</h3>
-    </div>
-    <!-- start rating -->
-    <div class="text-center row-count">
-      <div class="count wow fadeInDownBig col-sm-12 hvr-sweep-to-bottom">
-        <div class="icon-box"> <i class="f fa fa-user fa-2x"> </i></div>
-        <p class="counter">2960</p>
-        <i class="fas fa-thumbs-up fa-2x text-warning mb-2"></i>
-
-        <h4> review</h4>
-      </div>
-      <div class="count  wow fadeInUp col-sm-12 hvr-sweep-to-bottom">
-        <div class="icon-box"><i class="f fa fa-user fa-2x"> </i></div>
-        <p class="counter">8552</p>
-        <i class="fas fa-thumbs-down fa-2x text-warning mb-2"></i>
-        <h4> review</h4>
-      </div>
-
-      <div class="count  wow fadeInDownBig  col-sm-12 hvr-sweep-to-bottom">
-        <div class="icon-box"> <i class="f fa fa-user fa-2x"> </i></div>
-        <p class="counter">6599</p>
-        <i class="fas fa-thumbs-up fa-2x text-warning mb-2"></i>
-        <h4> review</h4>
-      </div>
-      <div class="count  wow fadeInUp col-sm-12 hvr-sweep-to-bottom">
-        <div class="icon-box"> <i class="f fa fa-user fa-2x"> </i></div>
-        <p class="counter">9860</p>
-        <i class=" fas fa-thumbs-up fa-2x text-warning mb-2"></i>
-        <h4> review</h4>
-      </div>
-
-      <style>
-        .rate {
-          box-sizing: border-box;
-          direction: ltr;
-          background-color: rgba(0, 0, 0, .7);
-          color: goldenrod;
-          padding: 35px;
-        }
-
-        .heading {
-          font-size: 25px;
-          margin-right: 25px;
-        }
-
-        .fa {
-          font-size: 25px;
-        }
-
-        .checked {
-          color: orange;
-        }
-
-        /* Three column layout */
-        .side {
-          float: left;
-          width: 15%;
-          margin-top: 10px;
-        }
-
-        .middle {
-          margin-top: 10px;
-          float: left;
-          width: 70%;
-        }
-
-        /* Place text to the right */
-        .right {
-          text-align: right;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-
-        /* The bar container */
-        .bar-container {
-          width: 100%;
-          background-color: #f1f1f1;
-          text-align: center;
-          color: white;
-        }
-
-        /* Individual bars */
-        .bar-5 {
-          width: 60%;
-          height: 18px;
-          background-color: #4CAF50;
-        }
-
-        .bar-4 {
-          width: 30%;
-          height: 18px;
-          background-color: #2196F3;
-        }
-
-        .bar-3 {
-          width: 10%;
-          height: 18px;
-          background-color: #00bcd4;
-        }
-
-        .bar-2 {
-          width: 4%;
-          height: 18px;
-          background-color: #ff9800;
-        }
-
-        .bar-1 {
-          width: 15%;
-          height: 18px;
-          background-color: #f44336;
-        }
-
-        /* Responsive layout - make the columns stack on top of each other instead of next to each other */
-        @media (max-width: 400px) {
-
-          .side,
-          .middle {
-            width: 100%;
-          }
-
-          .right {
-            display: none;
-          }
-        }
-      </style>
-
-      <div class="container-fluid rate">
-        <span class="heading">User Rating</span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <p>4.1 average based on 254 reviews.</p>
-
-        <div class="row">
-          <div class="side">
-
-          </div>
-          <div class="middle">
-            <div class="bar-container">
-              <div class="bar-5"></div>
-            </div>
-          </div>
-          <div class="side right">
-
-          </div>
-          <div class="side">
-
-          </div>
-          <div class="middle">
-            <div class="bar-container">
-              <div class="bar-4"></div>
-            </div>
-          </div>
-          <div class="side right">
-
-          </div>
-          <div class="side">
-
-          </div>
-          <div class="middle">
-            <div class="bar-container">
-              <div class="bar-3"></div>
-            </div>
-          </div>
-          <div class="side right">
-
-          </div>
-          <div class="side">
-
-          </div>
-          <div class="middle">
-            <div class="bar-container">
-              <div class="bar-2"></div>
-            </div>
-          </div>
-          <div class="side right">
-
-          </div>
-          <div class="side">
-
-          </div>
-          <div class="middle">
-            <div class="bar-container">
-              <div class="bar-1"></div>
-            </div>
-          </div>
-          <div class="side right">
-
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-    <!-- end rating -->
-  </div>
-  <!-- start style section counter  -->
-
-  <!--start info and mab -->
-  <section id="contact">
-    <div class="text-warning content-conatct">
-      <h3 style="direction: ltr; font-weight: bolder;" class="tlt">Contact Us</h3>
-      <h3><i class="fas fa-map-marked-alt m-0"></i><br> تـــــواصلو <span class="text-warning"> مــــــعـنــا</span>
-      </h3>
-    </div>
-    <div>
-      <div class="row">
-        <div class="col-md-11 iframe">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110641.68371808024!2d31.262369932878883!3d29.934779401680203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5968de99dee4d7a4!2z2KfZg9in2K_ZitmF2YrYqSDYp9mE2YHYsdin2LnZhtip!5e0!3m2!1sar!2seg!4v1584336440527!5m2!1sar!2seg"
-            width="95%" height="450" frameborder="0" style="border:3;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
-        </div>
-        <div class="col-md-10 m-auto Inquiry-form">
-          <h4><strong>ارسل استفساراتك </strong></h4>
-          <form class="pt-3">
-            <div class="form-group">
-              <input type="text" class="form-control" name="" value="" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
-            </div>
-            <div class="form-group">
-              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
-            </div>
-            <button class="btn btn-md btn-warning" type="submit" name="button">
-              <i class="fas fa-share-square " aria-hidden="true"></i> ارسال
-            </button>
-          </form>
-        </div>
-
-      </div>
-    </div>
+      </div>  
+    </nav>
   </section>
-  <!--end  info and mab -->
-
-
-  <!-- start login form  -->
-  <div class="jumbotron sign-in m-0">
-
-    <div class="container">
-      <h2 class="text-center" id="title">Register on the site</h2>
-      <hr>
-      <div class="row">
-        <div class="col-md-5">
-          <form role="form" method="post" action="register.php">
-            <fieldset>
-              <p class="text-uppercase pull-center">أملأ البيانات الاتية لتسجيل الدخول </p>
-              <div class="form-group">
-                <input type="text" name="username" id="username" class="form-control input-lg" placeholder="username">
-              </div>
-
-              <div class="form-group">
-                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Password">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Student-code">
-              </div>
-
-              <div class="form-check">
-                <label class="form-check-label mb-2">
-                  <input type="checkbox" class="form-check-input">
-                  بالضغط فوق تسجيل ، فإنك توافق على سياسةالموقع وشروطه
-                </label>
-              </div>
-              <div>
-                <input type="submit" class="btn btn-warning  btn-outline-success value=" Register">
-              </div>
-            </fieldset>
-          </form>
-        </div>
-
-        <div class="col-md-2">
-          <!-------null------>
-        </div>
-
-        <div class="col-md-5">
-          <form role="form">
-            <fieldset>
-              <p class="text-uppercase"> تسجيل الدخول من هنا لو سبق لك التسجيل </p>
-
-              <div class="form-group">
-                <input type="email" name="username" id="username" class="form-control input-lg" placeholder="username">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Password">
-              </div>
-              <div>
-                <input type="submit" class="btn btn-warning btn-outline-success" value="Sign In">
-              </div>
-
-            </fieldset>
-          </form>
-        </div>
+  <!--start header-->
+  <section class="head container-fluid ">
+    <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6 box text-center">
+       
       </div>
+      
+      <div class=" pt-5 text-center texthead col-md-12">
+        <h1 class=" p-3 text-white animate__animated fadeInUp delay-2s  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+          <samp> العقادلإدارة العقارات</samp></h1>
+        <br>
+        
+        <p class="pt-5 text-white animate__animated fadeInUp delay-3s  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.7s"><samp>نهدف إلى توفير الحلول السكنية المبتكرة والمستدامة بيئيًا، من خلال تطوير وتسليم المشروعات العقارية والذي من شأنه أن يوفّر للمستثمرين قيمة فريدة من نوعها حيث يتم الالتزام بتسليم المشاريع المطورة في الموعد المحدد. كما أنها تحرص على بناء منازل سكنية لا مثيل لها في أي من شركات أخرى</samp></p>
+        <a href="#to"><button class="mt-5 button2 mb-5  flicker-1 "> المشاريع المميزة</button> </a>
+       
+      </div>
+      <div class="scroll">
+      <div class="mouse_scroll" >
+        <a href="#for">
+          <span class="m_scroll_arrows unu"></span>
+          <span class="m_scroll_arrows doi"></span>
+          <span class="m_scroll_arrows trei"></span>
+       </a>
     </div>
-
   </div>
+      </div>
+  </div>   
+  <!--offers-->
+  <div class="container offer text-center py-4">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-lg-4">
+            <i class="fas fa-hand-holding fa-2x"> </i>
+              <h4><samp>التمكين</samp></h4>
+              <samp>القدرة على التحكم بصفقاتك العقارية</samp>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="fa-2x ">0%</h1>
+            <h4><samp>إلغاء رسوم الوساطة العقارية</samp></h4>
+            <samp>مع عدم وجود وسطاء عقاريين، يمكنك توفير الكثير من المال</samp>
+        </div> <div class="col-md-4 col-sm-4 col-lg-4">
+            <i class="fas fa-users fa-2x"></i>
+            <h4><samp>مجتمع من الخبراء</samp></h4>
+            <samp>لدعمك في الحصول على الصفقة التي تناسبك</samp>
+        </div>
+    </div>
+  </div>
+<!--end offers-->
+  </section>
+<!--end header-->
+
+<!--slect option-->
 
 
-  <!-- end login form -->
-
-  <!-- START CODE FOOTER -->
-  <footer class=" bg-grey">
-    <div class="transparency"></div>
-    <div class="container">
-      <div class="row d-flex justify-content-center align-content-center">
-        <div class="col-md-3  logo-part hvr-sweep-to-bottom">
-          <div class="">
-            <h3>معاهد الفراعنة العليا</h3>
-            <img src="./img/logo.png" class="w-100  h-100 border-0">
+<section class="slect-option  font-weight-bold  " id="for" >
+  <div class="container-fluid">
+    <div class="row pt-2 ">
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="text-center">
+          <form>
+            <div class="form-group">
+              <h2 class="mb-5 hvr mt-5 shadow-radial"><samp>جميع الوحدات</samp></h2>
+              <select class="form-control" id="sel1" name="sellist1" >
+                <option >شقة</option>
+                <option > منزل</option>
+                <option >استوديو</option>
+                <option >محل</option>
+                
+              </select>
+              </div>
+             
+              </form> 
+            </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="text-center">
+          <form >
+            <div class="form-group">
+              <h2 class="mb-5 mt-5"><samp>اختيار الوحدة</samp></h2>
+              <select class="form-control " id="sel1" name="sellist1" >
+                <option >بيع</option>
+                <option > ايجار</option>
+                <option >بيع وايجار</option>
+              </select>
+              </div>
+           
+              </form> 
+            </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="text-center">
+          <form >
+            <div class="form-group">
+              <h2 class="mb-5 mt-5"><samp>كل المدن</samp></h2>
+              <select class="form-control " id="sel1" name="sellist1" >
+                <option>القاهرة</option>
+                <option > الجيزة</option>
+                <option >مرسي مطروح</option>
+                <option >الساحل</option>
+              </select>
+              </div>
+            
+              </form> 
+            </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <div class="text-center">
+          <form >
+            <div class="form-group">
+              <h2 class="mb-5 mt-5"><samp>الاسعار</samp></h2>
+              <select class="form-control " id="sel1" name="sellist1" >
+                <option >100.000</option>
+                <option>150,000</option> 
+                <option>200,000</option>
+                <option>300,000</option>
+              </select>
+              </div>
+             </form> 
           </div>
-
-        </div>
-        <div class="col-md-4 info hvr-sweep-to-bottom">
-          <h3>ارقام التواصل</h3>
-          <p>تليفون: 33813228</p>
-          <p>33813229:تليفون</p>
-          <p>تليفون: 01227676830</p>
-          <a href="#" class="btn-footer"> More Info </a><br>
-          <a href="#" class="btn-footer"> Contact Us</a>
-        </div>
-
-
-        <div class="col-md-4 info-2 hvr-sweep-to-bottom">
-          <h3> العنــاوين</h3>
-
-          <p>المريوطيه هرم </p>
-          <p>طريق سقاره السياحي </p>
-          <p> الكيلو 9 - بجوار نقطة مرور شبرامنت</p>
-          <p> البريد الالكترونى:</p>
-          <p>info@pharaohs-institutes.com</p>
-
-        </div>
+          
       </div>
-    </div>
+  <a href="Projects.html" class="text-center mx-auto"> <button type="submit" class="btn-lg mt-3  headbutt mb-5  hvr-icon-bounce"> <i class="fas fa-search mr-3 hvr-icon"></i>بحث</button></a>
+             
+              <span ></span>
+            </div>
+  </section>
+<!--end slect option-->
 
+<!--about-->
 
-    <div class="section">
-      <div class="div-end">
-        <div class="social">
-          <h3>تواصلو معنا</h3>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-          <a href="#"><i class="fab fa-twitter-square"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <hr>
-          <h4> جميع الحقوق محفوظه لمعاهد الفراعنة العليا</h4>
-          <h5>2019 - 2020</h5>
-        </div>
-      </div>
+<section class="container-fluid bg-light">
+<section class="container py-5 about bg-white">
+  <div class="row">
+    <div class="col-md-6 pt-3 ">
+      <i class="fas fa-quote-left fa-3x" style="color: #A2AAB0; "></i>
+    <p  style="font-size:3vw;" class="text-right"><samp>حقق أقصى استفادة من أصولك العقارية، ولا تقصر التركيز على تقليل التكاليف والحد من المخاطر</samp></p>
+       
     </div>
-    <div class="svg">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#4C455B" fill-opacity="1"
-          d="M0,128L60,149.3C120,171,240,213,360,197.3C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-        </path>
-      </svg>
+    <div class="col-md-6 ">
+      <img src="imge/undraw_progress_data_4ebj.svg" width="100%">
     </div>
-  </footer>
-  <!-- END CODE FOOTER -->
-
-  <!--START BTN SLIDE UP -->
-  <div>
-    <a class="btn-up-css hvr-icon-spin hvr-spin" href="#down"><i class="mt-2 hvr-icon fa fa-angle-double-up"></i></a>
-    <a class="btn-down-css hvr-icon-spin" href="#body"><i class="mt-2 hvr-icon fa fa-angle-double-down"></i> </a>
   </div>
-  <!-- start btn slide up -->
+</section>
+  </section>
+<!--end about-->
+
+
+<!---->
+<section class="container-fluid bg-light">
+<section class="container">
+  <div class="row text-center">
+    <div class="col-md-6 serch1" >
+  
+
+      <h2 class="pt-5"><samp>ابحث عن الحي المناسب</samp></h2>
+      <h6 class="pt-5"><samp>اكتشف أفضل المجمعات السكنية</samp></h6>
+      <a href="Projects.html" class="py-5"><button class="mt-5"><samp>اعرف المزيد</samp></button></a>
+  
+    </div>
+    <div class="col-md-6 serch2">
+      <h2 class="pt-5"> <samp>!كم تساوي قيمة منزلك</samp></h2>
+      <h6 class="pt-5"><samp>احصل على تقدير مجاني لقيمة عقارك  </samp></h6>
+      <a href="Home value.html" class="py-5"><button class="mt-5"><samp>اعرف المزيد</samp></button></a>
+    </div>
+  </div>
+</section>
+</section>
+<!---->
+
+<!---->
+<section class="container-fluid bg-light">
+  <section class="container text-center user ">
+    <button class="tablink " onclick="openCity('London', this, '#273036 ')" id="defaultOpen">الإيجار</button>
+    <button class="tablink" onclick="openCity('Paris', this, ' #273036 ')">البيع</button>
+    <div id="London" class="tabcontent">
+     <div class="row">
+          <div class="col-md-2">
+            <i class="fas fa-globe-europe"></i>
+            <h5><samp>تسجيل</samp></h5>
+          </div>
+          <div class="col-md-2">
+            <i class="far fa-sticky-note"></i>
+            <h5><samp>عقد الإيجار الموحد</samp></h5>
+          </div>
+          <div class="col-md-2">
+            <i class="fas fa-chart-line"></i>
+            <h5><samp>مؤشر زيادة الإيجار</samp></h5>
+
+          </div>
+          <div class="col-md-2">
+            <i class="fas fa-balance-scale"></i>
+            <h5><samp>قوانين التأجير</samp></h5>
+          </div>
+          <div class="col-md-2">
+            <i class="fas fa-user"></i>
+            <h5><samp>إسأل الخبير</samp></h5>
+          </div>
+          <div class="col-md-2">
+            <i class="fas fa-users"></i>
+            <h5><samp>لجنة الإيجار</samp></h5>
+          </div>
+     </div>
+     
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <div class="row">
+        <div class="col-md-2">
+          <i class="far fa-sticky-note"></i>
+          <h5><samp>نموذج مذكرة تفاهم</samp></h5>
+        </div>
+        <div class="col-md-2">
+          <i class="far fa-sticky-note"></i>
+          <h5><samp>لوائح العقارات</samp></h5>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-search-plus"></i>
+          <h5><samp>دليل البائعين والمشترين</samp></h5>
+
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-calculator"></i>
+          <h5><samp>حاسبة الرهن العقاري</samp></h5>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-user"></i>
+          <h5><samp>إسأل الخبير</samp></h5>
+        </div>
+      
+   </div>
+   
+    </div>
+    
+  </section>
+</section>
+<!---->
+<section class="container-fluid bg-light">
+  <section class="container text-center pt-5 pb-5 bg-white">
+    <span class="dot wow slideInLeft" data-wow-duration="2s" data-wow-delay=".5s" style="background-color: #A0C1B8; "></span>
+    <span class="dot  wow slideInup" data-wow-duration="2s" data-wow-delay=".5s"style="background-color: #CBC5C1;"></span>
+    <span class="dot  wow slideInDown" data-wow-duration="2s" data-wow-delay=".5s" style="background-color: #A2AAB0;"></span>
+    <span class="dot  wow slideInRight" data-wow-duration="2s" data-wow-delay=".5s" style="background-color: #273036 ;"></span>
+  </section>
+  </section>
+<!---->
+
+<section  class="container-fluid bg-light ">
+  <section class="container bg-white counter-section pt-5">
+    <div class="row counter text-center pt-5 py-5 px-5">
+      <div class="col-md-3"> 
+        <div class="icon-box"><i class="fas fa-briefcase  fa-3x m-2 pt-3 icon-deg"></i></i></div>
+        
+          <p class="count">374</p>
+          <p class="our-conut">Projects</p>
+      </div>
+      <div class="col-md-3">
+        <div class="icon-box"> <i class="far fa-smile-beam fa-3x m-2 pt-3 icon-deg"></i></div>
+        <p class="count">456</p>
+        <p class="our-conut">Our clients</p>
+      </div>
+      <div class="col-md-3">
+        <div class="icon-box">  <i class="fas fa-comments fa-3x m-2 pt-3 icon-deg"></i></div>
+        <p class="count">300</p>
+        <p class="our-conut">Reviews</p>
+      </div>
+      <div class="col-md-3">
+      <div class="icon-box">  <i class="fas fa-users fa-3x m-2 pt-3 icon-deg"></i></div>
+        <p class="count">569</p>
+        <p class="our-conut">Our employees</p>
+      </div>
+    </div>
+
+    <script>
+     
+
+        $(document).ready(function() {
+
+        var counters = $(".count");
+        var countersQuantity = counters.length;
+        var counter = [];
+
+        for (i = 0; i < countersQuantity; i++) {
+          counter[i] = parseInt(counters[i].innerHTML);
+        }
+
+        var count = function(start, value, id) {
+          var localStart = start;
+          setInterval(function() {
+            if (localStart < value) {
+              localStart++;
+              counters[id].innerHTML = localStart;
+            }
+          }, 40);
+        }
+
+        for (j = 0; j < countersQuantity; j++) {
+          count(0, counter[j], j);
+        }
+        });
+    </script>
+  </section>
+</section>
 
 
 
 
 
 
-  <!-- ------------------------------------------------------------------ -->
-  <script type="text/javascript" src="particles.js"></script>
-  <script type="text/javascript" src="app.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/animsition.js"></script>
-  <!-- <script src="js/textillate.js"></script> -->
-  <script src="js/lettering.js"></script>
-  <script src="js/jquery.fittext.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/all.js"></script>
-  <script src="js/ahmad.js"></script>
-  <script src="js/jquery.waypoints.js"></script>
-  <script src="js/jquery.counterup.js"></script>
-  <!-- <script src="js/jquery.countTo.js"></script> -->
 
 
-  <script>
-    new WOW().init();
-  </script>
-
-  <script>
-    jQuery(document).ready(function ($) {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 3000
-      });
-    });
-  </script>
 
 
-  <div id="down"></div>
+
+
+
+<section class="container-fluid bg-light  ">
+<section class="container bg-white" id="to">
+  <h1 class="text-center gallerytext pt-5 pb-5" ><samp>مشاريع مميزة</samp></h1>
+    <div class="row pb-5 pl-2 pr-2">
+        <div class="col-xs-12 col-sm-6 col-md-4  p-3  ">
+          <div class="gallery wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+          <img src="imge/a.jpg" width="100%" class="galleryimge">
+          <div class="notebook ">
+            <h3><samp>كمباوند نيوليوبلس</samp></h3>
+            <samp>القاهرة الجديدة</samp>
+            <br>
+            <a href="Compounds1.html"><button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></a>
+          </div>
+        </div>
+      </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 p-3  ">
+          <div class="gallery wow bounceInUp" data-wow-duration="2s"  data-wow-delay="0.4s">
+          <img src="imge/i.jfif" width="100%">
+          <div class="notebook ">
+            <h3><samp>كمباوند ذا سيتي</samp></h3>
+            <samp>القاهرة</samp>
+            <br>
+           <a href="Compounds2.html"> <button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 p-3  ">
+          <div class=" gallery  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+          <img src="imge/c.jpg" width="100%">
+          <div class="notebook ">
+            <h3><samp> كمباوند سنشري سيتي </samp></h3>
+            <samp>التجمع الخامس</samp>
+            <br>
+           <a href="Compounds3.html"><button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></a> 
+          </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 p-3  ">
+          <div class="gallery  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.8s">
+          <img src="imge/d.jpeg" width="100%">
+          <div class="notebook ">
+            <h3><samp>كمباوند ان فيل </samp></h3>
+            <samp>اكتوبر6</samp>
+            <br>
+            <a href="Compounds4.html"><button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4  p-3  ">
+          <div class="gallery  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.9s">
+          <img src="imge/e.jpg" width="100%">
+          <div class="notebook ">
+            <h3><samp>كمباوند اتيكا </samp></h3>
+            <samp>العاصمة الإدارية الجديدة</samp>
+            <br>
+           <a href="Compounds5.html"> <button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 p-3 ">
+          <div class=" gallery  wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.10s">
+          <img src="imge/f.jpg" width="100%" class="p-t2 ">
+          <div class="notebook">
+            <h3><samp>كمباوند ديونز  </samp></h3>
+            <samp>الشيخ زايد</samp>
+            <br>
+           <A href="Compounds6.html"> <button class="mt-3 mb-2 hvr-wobble-horizontal"><samp><i class="fa fa-arrow-left hvr-icon"></i>المزيد</samp></button></A>
+          </div>
+        </div>
+        </div>
+    </div>
+</section>
+</section>
+<!----->
+
+<!--skills-->
+  <section class="container-fluid bg-light">
+    <section class="container bg-white pb-5">
+
+   
+    <div class="skills">
+    <H2 class="text-center pt-5 pb-5"><samp>تقييم العملاء</samp></H2>
+
+    
+    <div class="skill-box ml-3 mr-3">
+      <div class="skill-name"><samp>Ahmed Ali</samp></div>
+      <div class="skill-progress">
+      <span style="width: 90%;   background: linear-gradient(125deg,#8d849b ,#e43f5a,#3E3E3B);"
+      class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s"></span>
+    </div>
+    </div>
+    <div class="skill-box ml-3 mr-3">
+      <div class="skill-name"><samp>Mostafa Reda</samp></div>
+      <div class="skill-progress">
+      <span style="width: 85%;   background: linear-gradient(125deg,#8d849b ,#e43f5a,#3E3E3B);;"
+      class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s"></span>
+    </div>
+    </div>
+    <div class="skill-box ml-3 mr-3">
+      <div class="skill-name"><samp> Mohamed Arfat</samp></div>
+      <div class="skill-progress">
+      <span style="width: 70%;  background: linear-gradient(125deg,#8d849b,#e43f5a,#3E3E3B);"
+      class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s"></span>
+    </div>
+    </div>
+    <div class="skill-box ml-3 mr-3">
+      <div class="skill-name"><samp> Hesham Ahmed</samp></div>
+      <div class="skill-progress">
+      <span style="width: 88%;   background: linear-gradient(125deg,#8d849b ,#e43f5a,#3E3E3B);"
+      class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s"></span>
+    </div>
+    </div>
+    <div class="skill-box ml-3 mr-3">
+      <div class="skill-name"><samp>Khaled Fesil</samp> </div>
+      <div class="skill-progress">
+      <span style="width: 83%;   background: linear-gradient(125deg,#8d849b ,#e43f5a,#3E3E3B);"
+      class=" wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s"></span>
+    </div>
+    </div>
+  </div>
+  </section>
+ </section>
+
+<!--end skills-->
+<!--our time-->
+
+    
+<div class="container-fluid bg-light"  id="venue">
+  <div class="pb-5 container bg-white">
+    <section class="pb-5 " style="background-color:#E0E0E0;">
+      <div class=" animate-in-down pt-5 ">
+       
+          
+              <div class="carousel slide" data-ride="carousel" id="carousel1">
+                  <div class="carousel-inner " role="listbox">
+
+                    <div class="carousel-item  text-center">
+                      <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/2.jpg" width="200px">
+                      <h4> <b>Ahmed Mohamed</b> </h4>
+                      <p class="mb-0">HR Manager</p>
+                     
+                       
+                  </div>
+     
+                      <div class="carousel-item  text-center">
+                          <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/c.jpg" width="200px">
+                          <h4> <b>Abdelstar Khaled</b> </h4>
+                          <p class="mb-0">HR Manager</p>
+                         
+                           
+                      </div>
+                      <div class="carousel-item text-center">
+                          <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/4.jpg" width="200px">
+                          <h4> <b>Ebrahim Mahmoud</b> </h4>
+                          <p class="mb-0">HR Manager</p>
+                        
+                      </div>
+                      <div class="carousel-item  text-center">
+                          <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/1.jpg" width="200px">
+                          <h4> <samp>Doaa Abdelaziz</samp> </h4>
+                          <p class="mb-0">HR Manager</p>
+                       
+                      </div>
+                      <div class="carousel-item active  text-center"> 
+                          <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/5.jpg" width="200px">
+                          <h4> <samp>Ebtesam Abdelhamead</samp> </h4>
+                          <p class="mb-0">HR Manager</p>
+                        
+                      </div>
+                      <div class="carousel-item  text-center">
+                            <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="icon img/3.jpg" width="200px">
+                          <h4> <samp>Samy Afify</samp> </h4>
+                          <p class="mb-0">HR Manager</p>
+                       
+                      </div>
+              
+                  </div> <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+              </div>
+          </div>  
+         </section>
+      </div>
+  </div>
+
+
+
+
+
+<!--end our time-->
+<section class="bg-light container-fluid">
+<section class="login-bg container " id="log">
+  <div class="container"> 
+      <h4 class="text-center pt-5 pb-5" style="font-weight: bold; font-size: 35px;"><samp>سهل الوصول إلينا</samp></h4>
+  <div class="row pt-5 pb-5">
+   
+      <div class="col-md-6 text-center ">
+   
+         <form class=" pt-3 form-control2" style="width: 80%;">
+            <h6 class="pb-2"><samp>سجل دخولك الاّن</samp></h6>
+            <input type="text" class="form-control m-4 " id="email" placeholder="..البريد الإلكتروني" name="email" >
+            <input type="text" class="form-control m-4 " id="password" placeholder="..رقم الهاتف" name="numbr">
+             <a href="login.html"class=" nav-item-link"><button class="btnend"><samp class="p-2">تسجيل دخول</samp><img src="icon img/icons8-right-button-64.png" width="20px" class="mr-2"></button></a>
+          </form>
+          
+      </div>
+      <div class="col-md-6 pt-3 text-center">
+        <img src="icon img/icons8-google-maps-old-64.png" style="cursor: pointer;" >
+        <br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.124021103912!2d31.347174085406003!3d30.061979324700022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e7228cb188b%3A0x703d99e90c6fd3f9!2z2YXZg9ix2YUg2LnYqNmK2K_YjCDYp9mE2YXZhti32YLYqSDYp9mE2LPYp9iv2LPYqdiMINmF2K_ZitmG2Kkg2YbYtdix2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCs!5e0!3m2!1sar!2seg!4v1591039704565!5m2!1sar!2seg" width="80%"  frameborder="0" style="border:0; background-color: #e43f5a;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+      </div>
+  
+  </div>
+ </div>
+</section>
+</section>
+
+
+
+
+
+
+
+<!--our Team-->
+
+<!---->
+
+<!--end-->
+
+<section id="footer"  class="pt-2">
+  <div class="scroll-up ">
+    <div class="mouse_scroll-up " >
+      <a href="#for" id="up">
+        <span class="m_scroll_arrows-up one"></span>
+        <span class="m_scroll_arrows-up to"></span>
+        <span class="m_scroll_arrows-up three"></span>
+     </a>
+  </div>
+</div>
+  <div class="container  pt-3">
+    
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-6 col-md-3 ">
+        <h5 class="text-center"><a class="text-light"><samp>القائمة|</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <li class=" nav-item-link"><a href="about.html"><samp>من نحن </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Projects.html"><samp>المشاريع </samp><i class="fas fa-angle-double-left"></i></a></li>
+         <li class=" nav-item-link"><a href="#to"><samp>المشاريع المميزة </samp><i class="fas fa-angle-double-left"></i></a></li>
+      
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center"><a class="text-light"><samp> خدمات|</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+        <li class=" nav-item-link"><a href="add.html"><samp>أضف ممتلكاتك</samp><i class="fas fa-angle-double-left"></i></a></li>
+        <li class=" nav-item-link"><a href="Sellers.html"><samp>البائعون</samp><i class="fas fa-angle-double-left"></i></a></li>
+        <li class=" nav-item-link"><a href="The tenants.html"><samp>المستأجرون </samp><i class="fas fa-angle-double-left"></i></a></li>
+     </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center"><a class="text-light"><samp>مزايا |</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <li class=" nav-item-link"><a href="Careers.html"><samp>وظائف </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Home value.html"><samp>كم تساوي قيمة منزلك </samp><i class="fas fa-angle-double-left"></i></a></li>
+          <li class=" nav-item-link"><a href="Projects.html"><samp>ابحث عن الحي المناسب</samp><i class="fas fa-angle-double-left"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h5 class="text-center "><a class="text-light"> <samp> تواصل معنا |</samp></a></h5>
+        <ul class="list-unstyled quick-links text-center">
+          <a><samp>البريد الالكتروني</samp></a>
+          <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>El-3qad@gmail.com </samp></a></li>
+          <a><samp>رقم التليفون</samp></a>
+          <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>0105634678 </samp></a></li>
+         
+     
+        
+        </ul>
+      </div>
+      
+     
+     
+    </div>
+    
+   
+  
+  </div>
+  <section class="container-fluid wave" >
+  <div class="row pb-3 ">
+    
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-2 text-center text-white ">
+        <img src="imge/undraw_delivery_address_03n0.svg" width="10%">
+        <i class="m-2 "><img src="icon img/icons8-facebook-64.png" class="sochial"></i>
+        <i class=" m-2 "><img src="icon img/icons8-whatsapp-64.png" class="sochial"></i>
+        <i class=" m-2 "><img src="icon img/icons8-google-plus-64.png" class="sochial"></i>
+        <br></br>
+       
+        <small class="text-light ">© 2020 by El-3qad </small>
+      </div>
+
+    </div>	</section>
+
+
+  
+<button class="open-button" onclick="openForm()"><samp><i class="fab fa-facebook-messenger mr-3 fa-1x"></i>راسلنا الان</samp></button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h3 class="text-right text-white"><samp>دردشة</samp></h3>
+
+    <label for="msg" class="text-muted"><b>Message</b></label>
+    <textarea placeholder="..اكتب رسالتك" name="msg" required class="text-right"></textarea>
+
+    <button type="submit" class="btn"><samp>إرسال</samp></button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><samp>إغلاق</samp></button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</section>
+
+
+
+
+
+
+
+
+<!---->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.js"></script>
+<script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+
+<script src="js/jquery.counterup.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
 </body>
-
-
 </html>
