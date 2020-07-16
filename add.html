@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= 
+    , initial-scale=1.0">
+    <title>Document</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/add.css " rel="stylesheet" type="text/css">
+    
+    <link href="css/hover.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+<!-- BEGIN TOPBAR -->
+
+
+<div class="topbar">
+  <div class="container">
+      <div class="topbar-left">
+          <p>E-Mail: info@gammasec.com</p>
+      </div>
+      <div class="topbar-right">
+          <div class="secation">
+              <div class="container-right">
+                  <a class="two" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="two" href=""><i class="fab fa-instagram"></i></a>
+                  <a class="four" href=""><i class="fab fa-tumblr"></i></a>
+                  <a class="four" href=""><i class="fab fa-twitter"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- END TOPBAR -->
+  <section class="nav2 ">
+    <nav class="navbar navbar-expand-md  ">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon "><img src="icon img/icons8-menu-64.png" width="40px" class="toggler-icon p-0 "></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end " id="collapsibleNavbar">
+        <ul class="navbar-nav font-weight-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="#log"><samp>تسجيل دخول</samp></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html"><samp>وظائف</samp></a>
+          </li>
+          <li class="nav-item">
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>أضف ممتلكاتك</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="add.html"><samp>أضف ممتلكاتك</samp></a>
+              <a class="dropdown-item" href="Sellers.html"><samp>البائعون</samp></a>
+              <a class="dropdown-item" href="The tenants.html"><samp>المستأجرون</samp></a>
+              
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><samp>المشاريع</samp></a>
+            <div class="dropdown-menu text-right">
+              <a class="nav-link dropdown-item" href="Projects.html"><samp>المشاريع</samp></a>
+              <a class="dropdown-item" href="#to"><samp>المشاريع المميزة</samp></a>
+              </div>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><samp>من نحن</samp></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><samp>الصفحةالرئسية</samp></a>
+          </li>
+        </ul>
+        <!-- start search -->
+      <div>
+        <div id="myOverlay" class="overlay">
+          <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+          <div class="overlay-content">
+            <form action="/action_page.php" class="form-1">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+        <button class="openBtn" onclick="openSearch()"> <i class="fa fa-search"></i></button>
+      </div>
+      <!-- end search --> 
+      </div>  
+    </nav>
+  </section>
+
+    <section class="backgrondadd">
+    <section class="container pt-5 ">
+        <div class="add" >
+          <img src="imge/undraw_buy_house_560d.svg" width="200px">
+            <h1 class="text-right ">اضف ممتلكاتك <i class="fas fa-stream"></i></h1>
+           
+        </div>
+ 
+        <div class="form mt-5">
+         <div class="container">
+         <form>
+             <h3>بيع/ ايجار</h3>
+             <div class="form-row pt-3">
+               <div class="col">
+                 <input type="text" class="form-control hvr-round-corners" id="email" placeholder="الاسم" name="email" class="w-75">
+               </div>
+               <div class="col">
+                 <input type="password" class="form-control  hvr-round-corners" placeholder="البريد الالكتروني" name="pswd">
+               </div>
+               
+             </div>
+             <div class="form-row pt-3">
+                 <div class="col">
+                   <input type="text" class="form-control hvr-round-corners" id="email" placeholder="اضف المشروع" name="email" class="w-75">
+                 </div>
+                 <div class="col">
+                   <input type="password" class="form-control hvr-round-corners" placeholder="مكان الوحدة" name="pswd">
+                 </div>
+                 
+               </div>
+               <div class="form-row pt-3">
+                 <div class="col">
+                   <input type="text" class="form-control hvr-round-corners" id="email" placeholder=" الحجم" name="email" class="w-75">
+                 </div>
+                 <div class="col">
+                   <input type="password" class="form-control hvr-round-corners" placeholder="السعر" name="pswd">
+                 </div>
+                 
+               </div>
+               <div class="form-row pt-3">
+                 <div class="col">
+                     <select class="form-control hvr-round-corners" id="sel1" name="sellist1">
+                         <option>نوع التشطيب</option>
+                         <option>محارة</option>
+                         <option>بدون تشطيب</option>
+                         <option>لوكس </option>
+                         <option> سوبر لوكس </option>
+                       </select>
+                 </div>
+                 <div class="col ">
+                     <select class="form-control hvr-round-corners" id="sel1" name="sellist1">
+                         <option>طريقة الدفع</option>
+                         <option>كاش</option>
+                         <option>قسط</option>
+                     
+                       </select>
+                 </div>
+                 
+               </div>
+               <div class="form-group pt-3 text-right pb-3 ">
+                 <label for="comment ">:التفاصيل</label>
+                 <textarea class="form-control hvr-round-corners" rows="5" id="comment"></textarea>
+               </div>
+               <div class="form-group">
+                 <input type="file" class="form-control-file " name="file" placeholder="رفع ملف">
+               </div>
+               <button type="submit" class="button  hvr-round-corners mt-5 mb-5">إرسال</button>
+               
+                 
+               </div>
+           </form>
+         </div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.521349378114!2d31.353386081078675!3d30.06179825463162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e7228cb188b%3A0x703d99e90c6fd3f9!2z2YXZg9ix2YUg2LnYqNmK2K_YjCDYp9mE2YXZhti32YLYqSDYp9mE2LPYp9iv2LPYqdiMINmF2K_ZitmG2Kkg2YbYtdix2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCs!5e0!3m2!1sar!2seg!4v1587144793536!5m2!1sar!2seg"  frameborder="0" style="border:tan 3px; padding-bottom: 10px; " allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" ></iframe>
+        
+  
+        </div>
+      </section> 
+    </section>
+    <section id="footer"  class="pt-2">
+      <div class="scroll-up ">
+        <div class="mouse_scroll-up " >
+          <a href="#for" id="up">
+            <span class="m_scroll_arrows-up one"></span>
+            <span class="m_scroll_arrows-up to"></span>
+            <span class="m_scroll_arrows-up three"></span>
+         </a>
+      </div>
+    </div>
+      <div class="container  pt-3">
+        
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-6 col-md-3 ">
+            <h5 class="text-center"><a class="text-light"><samp>القائمة|</samp></a></h5>
+            <ul class="list-unstyled quick-links text-center">
+              <li class=" nav-item-link"><a href="about.html"><samp>من نحن </samp><i class="fas fa-angle-double-left"></i></a></li>
+              <li class=" nav-item-link"><a href="Projects.html"><samp>المشاريع </samp><i class="fas fa-angle-double-left"></i></a></li>
+             <li class=" nav-item-link"><a href="#to"><samp>المشاريع المميزة </samp><i class="fas fa-angle-double-left"></i></a></li>
+          
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <h5 class="text-center"><a class="text-light"><samp> خدمات|</samp></a></h5>
+            <ul class="list-unstyled quick-links text-center">
+            <li class=" nav-item-link"><a href="add.html"><samp>أضف ممتلكاتك</samp><i class="fas fa-angle-double-left"></i></a></li>
+            <li class=" nav-item-link"><a href="Sellers.html"><samp>البائعون</samp><i class="fas fa-angle-double-left"></i></a></li>
+            <li class=" nav-item-link"><a href="The tenants.html"><samp>المستأجرون </samp><i class="fas fa-angle-double-left"></i></a></li>
+         </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <h5 class="text-center"><a class="text-light"><samp>مزايا |</samp></a></h5>
+            <ul class="list-unstyled quick-links text-center">
+              <li class=" nav-item-link"><a href="Careers.html"><samp>وظائف </samp><i class="fas fa-angle-double-left"></i></a></li>
+              <li class=" nav-item-link"><a href="Home value.html"><samp>كم تساوي قيمة منزلك </samp><i class="fas fa-angle-double-left"></i></a></li>
+              <li class=" nav-item-link"><a href="Projects.html"><samp>ابحث عن الحي المناسب</samp><i class="fas fa-angle-double-left"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <h5 class="text-center "><a class="text-light"> <samp> تواصل معنا |</samp></a></h5>
+            <ul class="list-unstyled quick-links text-center">
+              <a><samp>البريد الالكتروني</samp></a>
+              <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>El-3qad@gmail.com </samp></a></li>
+              <a><samp>رقم التليفون</samp></a>
+              <li class=" nav-item-link"><a><i class="fas fa-angle-double-right"></i><samp>0105634678 </samp></a></li>
+             
+         
+            
+            </ul>
+          </div>
+          
+         
+         
+        </div>
+        
+       
+      
+      </div>
+      <section class="container-fluid wave" >
+      <div class="row pb-3 ">
+        
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center text-white ">
+            <img src="imge/undraw_delivery_address_03n0.svg" width="10%">
+            <i class="m-2 "><img src="icon img/icons8-facebook-64.png" class="sochial"></i>
+            <i class=" m-2 "><img src="icon img/icons8-whatsapp-64.png" class="sochial"></i>
+            <i class=" m-2 "><img src="icon img/icons8-google-plus-64.png" class="sochial"></i>
+            <br></br>
+           
+            <small class="text-light ">© 2020 by El-3qad </small>
+          </div>
+    
+        </div>	</section>
+    
+    
+      
+    <button class="open-button" onclick="openForm()"><samp><i class="fab fa-facebook-messenger mr-3 fa-1x"></i>راسلنا الان</samp></button>
+    
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h3 class="text-right text-white"><samp>دردشة</samp></h3>
+    
+        <label for="msg" class="text-muted"><b>Message</b></label>
+        <textarea placeholder="..اكتب رسالتك" name="msg" required class="text-right"></textarea>
+    
+        <button type="submit" class="btn"><samp>إرسال</samp></button>
+        <button type="button" class="btn cancel" onclick="closeForm()"><samp>إغلاق</samp></button>
+      </form>
+    </div>
+    
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    </section>
+    
+
+
+
+
+
+
+
+      <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/script.js"></script>
+        <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script src="js/cssanimation-gsap.js"></script>
+</body>
+
+
+
+</html>
